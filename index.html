@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>인증</title>
-    <link rel="stylesheet" href="style.css?v=5" />
+    <link rel="stylesheet" href="style.css?v=6" />
   </head>
   <body>
     <main class="card" id="auth-card">
@@ -33,17 +33,18 @@
         <input
           id="pepper"
           name="pepper"
-          type="password"
+          type="text"
           placeholder="비밀 단어"
           required
           autocomplete="off"
           spellcheck="false"
+          autocapitalize="off"
         />
         <button id="submit-btn" type="submit">확인</button>
       </form>
       <p id="status" class="status" role="status" aria-live="polite"></p>
     </main>
 
-    <script src="app.js?v=5"></script>
+    <script src="app.js?v=6"></script>
   </body>
 </html>
